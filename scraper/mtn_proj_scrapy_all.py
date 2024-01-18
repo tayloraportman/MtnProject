@@ -17,6 +17,8 @@ class MtnSpider(scrapy.Spider):
     area_data = []
     route_data = []
     stat_data = []
+    area_urls_data = []
+    area_route_urls_data = {}
 
     custom_settings = {
         'DOWNLOAD_DELAY': 0.002, #avoid overloading the server with too many requests in a short period.
@@ -27,15 +29,24 @@ class MtnSpider(scrapy.Spider):
         ],
     }
 
+    def __init__(self, test_mode=False, test_urls=None, *args, **kwargs):
+    super(MtnSpider, self).__init__(*args, **kwargs)
+    self.test_mode = test_mode
+    self.test_urls = test_urls if test_urls else []
+
     # Parser 1: Collect by states + international + in progress from moutainproject homepage
     def parse(self, response):
         # Parse states and collect their URLs
-        state_urls = response.css('#route-guide > div:nth-child(n) > div:nth-child(n) > strong > div > div:nth-child(n) > a::attr(href)').extract()
-        state_name = response.css('#route-guide > div:nth-child(n) > div:nth-child(n) > strong > div > div:nth-child(n) > a::text').extract()
+        state_urls = response.css('#route-guide > div:nth-child(n) > div:nth-child(n) > strong > div > div:nth-child(n) > a::attr(href)').getall()
+        state_name = response.css('#route-guide > div:nth-child(n) > div:nth-child(n) > strong > div > div:nth-child(n) > a::text').getall()
 
-        for state_name, state_url in zip(state_name, state_urls): 
-                    # Send requests for state-specific pages while passing state_name as a meta parameter
-            yield scrapy.Request(url=state_url, callback=self.parse_areas, meta={'state_name': state_name})
+        for state_name, state_url in zip(state_name, state_urls):
+            # Send requests for state-specific pages while passing state_name as a meta parameter
+            yield scrapy.Request(
+                url=state_url,
+                callback=self.parse_areas,
+                meta={'state_name': state_name}
+            )
 
     def handle_request_error(self, failure):
         # Handle request errors here
@@ -48,13 +59,15 @@ class MtnSpider(scrapy.Spider):
         area_info_raw = response.css('#climb-area-page table tr td::text').extract()
         cleaned_text_area = ' '.join(map(str.strip, area_info_raw))
         area_id = None  # Initialize area_id with a default value
-        route_id = None # Initialize route_id with a default value
+        route_id = None  # Initialize route_id with a default value
 
         if title is not None and title.startswith("Areas"):
             area_urls = response.css('#climb-area-page > div > div.col-md-3.left-nav.float-md-left.mb-2 > div > div.max-height.max-height-md-0.max-height-xs-400 > div:nth-child(n) > a::attr(href)').extract()
             area_name = response.css('#climb-area-page > div > div.col-md-3.left-nav.float-md-left.mb-2 > div > div.max-height.max-height-md-0.max-height-xs-400 > div:nth-child(n) > a::text').extract()
 
             for area_url in area_urls:
+                self.area_urls_data.append(area_url)
+
                 match_area = re.search(r'area/(\d+)', area_url)
                 if match_area:
                     area_id = match_area.group(1)
@@ -62,19 +75,25 @@ class MtnSpider(scrapy.Spider):
                 else:
                     self.logger.warning("match_area pattern not found")
 
-                for url, name in zip(area_urls, area_name):
-                    yield scrapy.Request(
-                        url=url,
-                        callback=self.parse_areas,
-                        meta={'state_name': state_name, 'area_name': name, 'area_id': area_id}
-                    )
+            for url, name in zip(area_urls, area_name):
+                yield scrapy.Request(
+                    url=url,
+                    callback=self.parse_areas,
+                    meta={'state_name': state_name, 'area_name': name, 'area_id': area_id}
+                )
 
-        elif title is not None and title.startswith("Routes"): #For each area collect routes and forward to parse_routes
+        elif title is not None and title.startswith("Routes"):  # For each area collect routes and forward to parse_routes
             area_id = response.meta['area_id']
             area_name = response.meta['area_name']
+
+            area_url = response.url
             route_urls = response.css('#left-nav-route-table td:nth-child(n) a::attr(href)').extract()
+            # Logic to collect route URLs within the area
+            # Store route URLs in the dictionary, organized by area
+            self.area_route_urls_data[area_url] = route_urls
 
             for route_url in route_urls:
+                self.route_urls_data.append(route_urls)
                 match_route = re.search(r'route/(\d+)', route_url)
                 if match_route:
                     route_id = match_route.group(1)
@@ -83,40 +102,39 @@ class MtnSpider(scrapy.Spider):
                     self.logger.warning("match_route pattern not found")
 
                 route_name = response.css('#left-nav-route-table td:nth-child(n) a::text').extract()
-    
-                for url, name in zip(route_urls, route_name):
-                    yield scrapy.Request(
-                        url=url,
-                        callback=self.parse_routes,
-                        meta={'state_name': state_name, 'area_name': area_name, 'route_name': name, 'area_id': area_id, 'route_id': route_id}
-                    )
-        else: 
+
+            for url, name in zip(route_urls, route_name):
+                yield scrapy.Request(
+                    url=url,
+                    callback=self.parse_routes,
+                    meta={'state_name': state_name, 'area_name': area_name, 'route_name': name, 'area_id': area_id, 'route_id': route_id}
+                )
+        else:
             self.logger.warning("Title element not found")
 
-        ### Extract data from area page ###
-        # Define regular expressions and corresponding field names
-        patterns = [
-             (r'Elevation:\s*([\d,]+)\s*ft', 'elevation_ft'),    # Match and extract route elevation
-             (r'GPS:\s*(-?[\d.]+,\s*-?[\d.]+)', 'GPS')                        # Match and extract GPS data
-             ]
+    ### Extract data from area page ###
+    # Define regular expressions and corresponding field names
+    patterns = [
+        (r'Elevation:\s*([\d,]+)\s*ft', 'elevation_ft'),  # Match and extract route elevation
+        (r'GPS:\s*(-?[\d.]+,\s*-?[\d.]+)', 'GPS')  # Match and extract GPS data
+    ]
 
-        area_data = {}
-        
-        for pattern, field in patterns:
-            match = re.search(pattern, cleaned_text_area)
-            if match:
-                area_data[field] = match.group(1).strip()
-            else:
-                    self.logger.warning("area_data pattern not found")
+    area_data = {}
 
-        yield area_data
+    for pattern, field in patterns:
+        match = re.search(pattern, cleaned_text_area)
+        if match:
+            area_data[field] = match.group(1).strip()
+        else:
+            self.logger.warning("area_data pattern not found")
 
-        area_data['area_name'] = response.meta['area_name']
-        area_data['state_name'] = response.meta['state_name']
-        area_data['area_id'] = response.meta['area_id']
-       
+    yield area_data
 
-        self.area_data.append(area_data) 
+    area_data['area_name'] = response.meta['area_name']
+    area_data['state_name'] = response.meta['state_name']
+    area_data['area_id'] = response.meta['area_id']
+
+    self.area_data.append(area_data) 
 
     # Parser 3: For each area/ sub area: IF route then collect data
     def parse_routes(self, response):
@@ -205,16 +223,20 @@ class MtnSpider(scrapy.Spider):
             json_route = json.dumps(self.route_data, indent=2)
             with open('route_data.json', 'w') as json_route_file:
                 json_route_file.write(json_route)
-
             # Save area data as JSON
             json_area = json.dumps(self.area_data, indent=2)
             with open('area_data.json', 'w') as json_area_file:
                 json_area_file.write(json_area)
-
             # Save stat data as JSON
             json_stat = json.dumps(self.stat_data, indent=2)
             with open('stat_data.json', 'w') as json_stat_file:
                 json_stat_file.write(json_stat)
+            json_area_urls = json.dumps(self.area_urls_data, indent=2)
+            with open('area_urls.json', 'w') as json_file:
+                json_file.write(json_area_urls)
+            with open('area_route_urls.json', 'w') as file:
+                json.dump(self.area_route_urls_data, file, indent=2)
+            
         except Exception as e:
             self.logger.error(f"Error while saving JSON data: {str(e)}")
         
@@ -225,5 +247,3 @@ from scrapy.crawler import CrawlerProcess
 process = CrawlerProcess()
 process.crawl(MtnSpider)
 process.start()
-
-
