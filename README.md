@@ -75,18 +75,14 @@ sqlite3 mtnspider_json.db
 - `avg_stars`: The average star rating given to the route.
 - `num_votes`: The number of votes or ratings the route has received.
 
-For example, the first record corresponds to the route with ID `108516795`, which has an average star rating of 0.0 based on 0 votes.
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
 Taylor A Portman
+
+## Version
+
+    ## Version 1.0 - Jan 26, 2024
 
 
 
