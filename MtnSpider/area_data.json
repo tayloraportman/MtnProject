@@ -1,0 +1,2927 @@
+[
+  {
+    "elevation_ft": "8,052",
+    "GPS": "44.51219, -110.5499",
+    "area_name": "Yellowstone National Park",
+    "state_name": "Wyoming",
+    "area_id": "105964751"
+  },
+  {
+    "elevation_ft": "10,327",
+    "GPS": "42.7551, -109.204",
+    "area_name": "Wind River Range",
+    "state_name": "Wyoming",
+    "area_id": "105964751"
+  },
+  {
+    "elevation_ft": "4,761",
+    "GPS": "43.84714, -104.14137",
+    "area_name": "White Rock",
+    "state_name": "Wyoming",
+    "area_id": "105964751"
+  },
+  {
+    "elevation_ft": "835",
+    "GPS": "29.98494, -98.11124",
+    "area_name": "Wimberley Boulders",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "7,000",
+    "GPS": "43.755, -110.9126",
+    "area_name": "Teton Canyon",
+    "state_name": "Wyoming",
+    "area_id": "105964751"
+  },
+  {
+    "elevation_ft": "851",
+    "GPS": "45.3593, -69.17476",
+    "area_name": "ZZZ-Area for holding prior to deletion",
+    "state_name": "* In Progress",
+    "area_id": "122843985"
+  },
+  {
+    "elevation_ft": "553",
+    "GPS": "38.64555, -90.31257",
+    "area_name": "WashU in St. Louis",
+    "state_name": "* In Progress",
+    "area_id": "122843985"
+  },
+  {
+    "elevation_ft": "6,270",
+    "GPS": "35.6093, -107.1341",
+    "area_name": "Upper Rio Puerco Valley",
+    "state_name": "New Mexico",
+    "area_id": "108227065"
+  },
+  {
+    "elevation_ft": "1,374",
+    "GPS": "37.2835, 22.82352",
+    "area_name": "Zantsi",
+    "state_name": "* In Progress",
+    "area_id": "122843985"
+  },
+  {
+    "elevation_ft": "58",
+    "GPS": "38.89, -77.0096",
+    "area_name": "Washington, DC",
+    "state_name": "* In Progress",
+    "area_id": "122843985"
+  },
+  {
+    "elevation_ft": "291",
+    "GPS": "35.84697, -78.909",
+    "area_name": "4. Eastern Region",
+    "state_name": "North Carolina",
+    "area_id": "118317112"
+  },
+  {
+    "elevation_ft": "7,522",
+    "GPS": "44.13869, -107.24497",
+    "area_name": "Ten Sleep Canyon",
+    "state_name": "Wyoming",
+    "area_id": "105964751"
+  },
+  {
+    "elevation_ft": "873",
+    "GPS": "39.58156, -84.04278",
+    "area_name": "Southwest Ohio",
+    "state_name": "Ohio",
+    "area_id": "116370160"
+  },
+  {
+    "elevation_ft": "810",
+    "GPS": "35.83785, -80.73168",
+    "area_name": "3. Piedmont Region",
+    "state_name": "North Carolina",
+    "area_id": "118317112"
+  },
+  {
+    "elevation_ft": "3,076",
+    "GPS": "36.00765, -81.83629",
+    "area_name": "2. Northern Mountains Region",
+    "state_name": "North Carolina",
+    "area_id": "118317112"
+  },
+  {
+    "elevation_ft": "2,288",
+    "GPS": "35.33813, -82.60733",
+    "area_name": "1. Southern Mountains Region",
+    "state_name": "North Carolina",
+    "area_id": "118317112"
+  },
+  {
+    "elevation_ft": "4,303",
+    "GPS": "33.13472, -107.24976",
+    "area_name": "Truth or Consequences Area",
+    "state_name": "New Mexico",
+    "area_id": "108227065"
+  },
+  {
+    "elevation_ft": "442",
+    "GPS": "43.80459, -70.35113",
+    "area_name": "Lowell Preserve",
+    "state_name": "* In Progress",
+    "area_id": "124078115"
+  },
+  {
+    "elevation_ft": "6,483",
+    "GPS": "44.92928, -110.68056",
+    "area_name": "Sheepeater Canyon",
+    "state_name": "Wyoming",
+    "area_id": "117268152"
+  },
+  {
+    "GPS": "43.10887, -69.90743",
+    "area_name": "Zzz Holding Area Prior to Deleting",
+    "state_name": "New Hampshire",
+    "area_id": "124840796"
+  },
+  {
+    "elevation_ft": "116",
+    "GPS": "43.73673, -69.82356",
+    "area_name": "Morse Mountain",
+    "state_name": "* In Progress",
+    "area_id": "124078115"
+  },
+  {
+    "elevation_ft": "6,947",
+    "GPS": "36.40589, -105.574",
+    "area_name": "Taos Area",
+    "state_name": "New Mexico",
+    "area_id": "108227065"
+  },
+  {
+    "elevation_ft": "4,628",
+    "GPS": "34.05497, -106.89408",
+    "area_name": "Socorro Area",
+    "state_name": "New Mexico",
+    "area_id": "108227065"
+  },
+  {
+    "elevation_ft": "559",
+    "GPS": "38.64685, -90.31232",
+    "area_name": "Underpass, The",
+    "state_name": "* In Progress",
+    "area_id": "115316311"
+  },
+  {
+    "elevation_ft": "530",
+    "GPS": "38.6499, -90.31008",
+    "area_name": "Throop Drive",
+    "state_name": "* In Progress",
+    "area_id": "115316311"
+  },
+  {
+    "elevation_ft": "542",
+    "GPS": "38.64934, -90.30743",
+    "area_name": "Stairs (McMillan), The",
+    "state_name": "* In Progress",
+    "area_id": "115316311"
+  },
+  {
+    "elevation_ft": "571",
+    "GPS": "35.4861, -79.67872",
+    "area_name": "Uwharrie National Forest",
+    "state_name": "North Carolina",
+    "area_id": "118651832"
+  },
+  {
+    "elevation_ft": "533",
+    "GPS": "38.64509, -90.31541",
+    "area_name": "South Forty",
+    "state_name": "* In Progress",
+    "area_id": "115316311"
+  },
+  {
+    "elevation_ft": "6,649",
+    "GPS": "35.56477, -107.13976",
+    "area_name": "Cerro Guadalupe",
+    "state_name": "New Mexico",
+    "area_id": "112101423"
+  },
+  {
+    "elevation_ft": "638",
+    "GPS": "35.30839, -80.74226",
+    "area_name": "University of North Carolina at Charlotte",
+    "state_name": "North Carolina",
+    "area_id": "118651832"
+  },
+  {
+    "elevation_ft": "4,453",
+    "GPS": "35.07979, -83.14318",
+    "area_name": "Whiteside Mountain",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "5,437",
+    "GPS": "33.15512, -107.30755",
+    "area_name": "Mud Mountain",
+    "state_name": "New Mexico",
+    "area_id": "107519024"
+  },
+  {
+    "elevation_ft": "5,465",
+    "GPS": "32.91771, -107.60665",
+    "area_name": "Percha Creek, Hillsboro",
+    "state_name": "New Mexico",
+    "area_id": "107519024"
+  },
+  {
+    "elevation_ft": "6,322",
+    "GPS": "33.48767, -107.41435",
+    "area_name": "Red Rock Arroyo",
+    "state_name": "New Mexico",
+    "area_id": "107519024"
+  },
+  {
+    "elevation_ft": "5,710",
+    "GPS": "32.92904, -107.2356",
+    "area_name": "Caballo Lake",
+    "state_name": "New Mexico",
+    "area_id": "107519024"
+  },
+  {
+    "elevation_ft": "4,200",
+    "GPS": "35.4353, -82.7291",
+    "area_name": "Stony Bald",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,841",
+    "GPS": "35.2591, -82.8004",
+    "area_name": "Stone Depot",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "4,616",
+    "GPS": "35.33979, -82.89511",
+    "area_name": "Victory Wall",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "4,550",
+    "GPS": "35.29306, -83.00681",
+    "area_name": "Sugar Creek Gap",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "9,139",
+    "GPS": "33.88347, -107.47839",
+    "area_name": "Potato Canyon",
+    "state_name": "New Mexico",
+    "area_id": "113648640"
+  },
+  {
+    "elevation_ft": "5,800",
+    "GPS": "34.0045, -106.989",
+    "area_name": "Box Climbing Areas, The",
+    "state_name": "New Mexico",
+    "area_id": "113648640"
+  },
+  {
+    "elevation_ft": "4,000",
+    "GPS": "35.0798, -83.1432",
+    "area_name": "North Face",
+    "state_name": "North Carolina",
+    "area_id": "106912371"
+  },
+  {
+    "elevation_ft": "4,500",
+    "GPS": "35.0798, -83.1432",
+    "area_name": "Southwest Corner",
+    "state_name": "North Carolina",
+    "area_id": "106912371"
+  },
+  {
+    "elevation_ft": "6,225",
+    "GPS": "32.93164, -107.23412",
+    "area_name": "Bat Cave Area",
+    "state_name": "New Mexico",
+    "area_id": "106527523"
+  },
+  {
+    "elevation_ft": "6,595",
+    "GPS": "33.48976, -107.40982",
+    "area_name": "Redgarden Wall",
+    "state_name": "New Mexico",
+    "area_id": "107519061"
+  },
+  {
+    "elevation_ft": "6,694",
+    "GPS": "33.4939, -107.41276",
+    "area_name": "Lower Park",
+    "state_name": "New Mexico",
+    "area_id": "107519061"
+  },
+  {
+    "elevation_ft": "4,930",
+    "GPS": "35.0831, -83.1358",
+    "area_name": "Southeast Face",
+    "state_name": "North Carolina",
+    "area_id": "106912371"
+  },
+  {
+    "elevation_ft": "6,824",
+    "GPS": "33.4959, -107.41512",
+    "area_name": "Luna Park",
+    "state_name": "New Mexico",
+    "area_id": "107519061"
+  },
+  {
+    "elevation_ft": "8,666",
+    "GPS": "33.88374, -107.47299",
+    "area_name": "Great Potato (Mt. Ore Ida), The",
+    "state_name": "New Mexico",
+    "area_id": "113648647"
+  },
+  {
+    "elevation_ft": "5,470",
+    "GPS": "34.00024, -106.9823",
+    "area_name": "Spook Canyon",
+    "state_name": "New Mexico",
+    "area_id": "106376959"
+  },
+  {
+    "elevation_ft": "5,900",
+    "GPS": "33.98563, -106.9909",
+    "area_name": "Southern Box areas",
+    "state_name": "New Mexico",
+    "area_id": "106376959"
+  },
+  {
+    "elevation_ft": "5,800",
+    "GPS": "34.0033, -106.9905",
+    "area_name": "Northern Box areas",
+    "state_name": "New Mexico",
+    "area_id": "106376959"
+  },
+  {
+    "elevation_ft": "6,943",
+    "GPS": "33.49723, -107.41759",
+    "area_name": "West Side",
+    "state_name": "New Mexico",
+    "area_id": "107519264"
+  },
+  {
+    "elevation_ft": "6,942",
+    "GPS": "33.49902, -107.41772",
+    "area_name": "Upper Park",
+    "state_name": "New Mexico",
+    "area_id": "107519264"
+  },
+  {
+    "GPS": "33.4959, -107.41517",
+    "area_name": "East Side",
+    "state_name": "New Mexico",
+    "area_id": "107519264"
+  },
+  {
+    "elevation_ft": "5,620",
+    "GPS": "34.0004, -106.98516",
+    "area_name": "Wallflower Wall",
+    "state_name": "New Mexico",
+    "area_id": "111586690"
+  },
+  {
+    "GPS": "33.9997, -106.98945",
+    "area_name": "Wine Wall",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "5,477",
+    "GPS": "34.00008, -106.99168",
+    "area_name": "Ursa Major boulder",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "5,456",
+    "GPS": "34.0023, -106.9914",
+    "area_name": "Waterfall Wall",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "5,462",
+    "GPS": "34.00102, -106.99126",
+    "area_name": "Pylon Boulder",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "GPS": "34.0033, -106.9905",
+    "area_name": "Waterfall Area Bouldering",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "5,530",
+    "GPS": "34.00255, -106.99067",
+    "area_name": "La Cueva Angela [CLOSED]",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "5,503",
+    "GPS": "34.0045, -106.9885",
+    "area_name": "Red Wall",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "5,409",
+    "GPS": "34.00538, -106.98843",
+    "area_name": "Streambed",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "GPS": "34.00503, -106.98798",
+    "area_name": "North Wall",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "GPS": "34.00056, -106.99002",
+    "area_name": "Hueco Wall",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "5,415",
+    "GPS": "34.00477, -106.98876",
+    "area_name": "Goat Boulder",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "GPS": "34.0033, -106.9905",
+    "area_name": "Gimmes, The",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "6,900",
+    "GPS": "33.4967, -107.41709",
+    "area_name": "Solitary Boulder",
+    "state_name": "New Mexico",
+    "area_id": "111835303"
+  },
+  {
+    "elevation_ft": "5,441",
+    "GPS": "34.00262, -106.9918",
+    "area_name": "East Side",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "5,428",
+    "GPS": "34.00376, -106.99282",
+    "area_name": "Cowshit Roof",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "GPS": "33.49723, -107.41759",
+    "area_name": "Asteroid Belt",
+    "state_name": "New Mexico",
+    "area_id": "111835303"
+  },
+  {
+    "elevation_ft": "5,429",
+    "GPS": "34.0013, -106.99046",
+    "area_name": "Filet de Papillon Wall (aka Dirt Wall)",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "GPS": "34.0033, -106.9905",
+    "area_name": "Ultimate Boulder",
+    "state_name": "New Mexico",
+    "area_id": "107116196"
+  },
+  {
+    "GPS": "34.0033, -106.9905",
+    "area_name": "Waterfall Wall/Underhang",
+    "state_name": "New Mexico",
+    "area_id": "107116196"
+  },
+  {
+    "elevation_ft": "5,428",
+    "GPS": "34.00437, -106.98961",
+    "area_name": "Sol Invictus Buttress",
+    "state_name": "New Mexico",
+    "area_id": "107447609"
+  },
+  {
+    "elevation_ft": "5,564",
+    "GPS": "34.00356, -106.99134",
+    "area_name": "North Face",
+    "state_name": "New Mexico",
+    "area_id": "107447609"
+  },
+  {
+    "elevation_ft": "5,476",
+    "GPS": "34.0043, -106.99002",
+    "area_name": "Loan Shark Wall",
+    "state_name": "New Mexico",
+    "area_id": "107447609"
+  },
+  {
+    "elevation_ft": "5,480",
+    "GPS": "34.00305, -106.99153",
+    "area_name": "East Wall",
+    "state_name": "New Mexico",
+    "area_id": "107447609"
+  },
+  {
+    "elevation_ft": "5,476",
+    "GPS": "34.00499, -106.98941",
+    "area_name": "North End, The",
+    "state_name": "New Mexico",
+    "area_id": "107447609"
+  },
+  {
+    "elevation_ft": "5,494",
+    "GPS": "34.00371, -106.99079",
+    "area_name": "Branch Office, The",
+    "state_name": "New Mexico",
+    "area_id": "107447609"
+  },
+  {
+    "elevation_ft": "5,490",
+    "GPS": "34.00346, -106.99108",
+    "area_name": "Bankruptcy Wall",
+    "state_name": "New Mexico",
+    "area_id": "107447609"
+  },
+  {
+    "elevation_ft": "5,441",
+    "GPS": "34.00265, -106.99129",
+    "area_name": "Tree Boulder",
+    "state_name": "New Mexico",
+    "area_id": "107116196"
+  },
+  {
+    "GPS": "34.0033, -106.9905",
+    "area_name": "Swine Boulder",
+    "state_name": "New Mexico",
+    "area_id": "107116196"
+  },
+  {
+    "GPS": "33.4959, -107.41517",
+    "area_name": "Northwest Passage, The",
+    "state_name": "New Mexico",
+    "area_id": "107519285"
+  },
+  {
+    "GPS": "33.4959, -107.41517",
+    "area_name": "Full Moon Wall",
+    "state_name": "New Mexico",
+    "area_id": "107519285"
+  },
+  {
+    "GPS": "33.4959, -107.41517",
+    "area_name": "Campground",
+    "state_name": "New Mexico",
+    "area_id": "107519285"
+  },
+  {
+    "elevation_ft": "5,662",
+    "GPS": "33.98494, -106.98913",
+    "area_name": "Unbeatable Boulder",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,458",
+    "GPS": "34.00491, -106.98849",
+    "area_name": "Corner Block",
+    "state_name": "New Mexico",
+    "area_id": "107065588"
+  },
+  {
+    "elevation_ft": "40",
+    "GPS": "33.9802, -106.9997",
+    "area_name": "Slot Machine",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,792",
+    "GPS": "33.98623, -106.98927",
+    "area_name": "Pocket Change Wall",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,693",
+    "GPS": "33.98639, -106.99529",
+    "area_name": "Scarry Wall",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "6,000",
+    "GPS": "33.9867, -106.9871",
+    "area_name": "Monkey Bars",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,768",
+    "GPS": "33.99242, -106.99215",
+    "area_name": "Minor Wall",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "6,000",
+    "GPS": "33.9836, -106.9971",
+    "area_name": "Alf Rig",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,720",
+    "GPS": "33.9858, -106.9896",
+    "area_name": "Dylan's Secret Garden Bouldering",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,734",
+    "GPS": "33.98481, -106.98738",
+    "area_name": "Las Hermanas",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,715",
+    "GPS": "33.98603, -106.99008",
+    "area_name": "Major Wall",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,580",
+    "GPS": "33.9839, -106.987",
+    "area_name": "Harmonica Convention (AKA Below Edges)",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "GPS": "34.00024, -106.9823",
+    "area_name": "Spook Outlying Boulders",
+    "state_name": "New Mexico",
+    "area_id": "111586690"
+  },
+  {
+    "elevation_ft": "5,735",
+    "GPS": "33.98607, -106.98897",
+    "area_name": "Alcohol Wall South",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "5,595",
+    "GPS": "34.00066, -106.9848",
+    "area_name": "ERA Wall",
+    "state_name": "New Mexico",
+    "area_id": "111586690"
+  },
+  {
+    "elevation_ft": "5,618",
+    "GPS": "33.9987, -106.98443",
+    "area_name": "Spook Main Wall",
+    "state_name": "New Mexico",
+    "area_id": "111586690"
+  },
+  {
+    "elevation_ft": "5,790",
+    "GPS": "33.98604, -106.98869",
+    "area_name": "Alcohol Wall",
+    "state_name": "New Mexico",
+    "area_id": "106333079"
+  },
+  {
+    "elevation_ft": "1,277",
+    "GPS": "41.43185, -73.99477",
+    "area_name": "Storm King Mountain",
+    "state_name": "New York",
+    "area_id": "107093207"
+  },
+  {
+    "elevation_ft": "2,309",
+    "GPS": "46.85253, -101.42623",
+    "area_name": "Salem Sue",
+    "state_name": "North Dakota",
+    "area_id": "111341935"
+  },
+  {
+    "elevation_ft": "98",
+    "GPS": "39.82392, -74.61042",
+    "area_name": "e. South",
+    "state_name": "New Jersey",
+    "area_id": "116146019"
+  },
+  {
+    "elevation_ft": "1,256",
+    "GPS": "35.07569, -82.64112",
+    "area_name": "Asbury Hills",
+    "state_name": "South Carolina",
+    "area_id": "119449313"
+  },
+  {
+    "elevation_ft": "417",
+    "GPS": "36.16248, -86.77011",
+    "area_name": "River Wall",
+    "state_name": "Tennessee",
+    "area_id": "122074444"
+  },
+  {
+    "elevation_ft": "3,000",
+    "GPS": "35.11363, -83.09915",
+    "area_name": "Cashiers Area (Ice)",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "2,659",
+    "GPS": "35.2273, -82.8034",
+    "area_name": "Cathey's Creek Crag",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,400",
+    "GPS": "35.21165, -83.01007",
+    "area_name": "Bonas Defeat",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "1,374",
+    "GPS": "35.48215, -82.18995",
+    "area_name": "Buffalo Creek Park",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,578",
+    "GPS": "35.25531, -82.80667",
+    "area_name": "Cedar Rock",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "370",
+    "GPS": "35.47381, -82.23743",
+    "area_name": "Eagle Rock",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "1,249",
+    "GPS": "35.2726, -82.2919",
+    "area_name": "Bradley Falls",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "GPS": "35.33815, -82.60734",
+    "area_name": "Dark Side (Closed to climbing, included for historic reference), The",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,022",
+    "GPS": "35.27825, -82.79183",
+    "area_name": "John Rock",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "4,000",
+    "GPS": "35.24204, -82.96257",
+    "area_name": "Horseshoe Rock",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,142",
+    "GPS": "35.46772, -82.3394",
+    "area_name": "Little Bearwallow Falls",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,055",
+    "GPS": "35.04541, -83.13769",
+    "area_name": "Granite City",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,500",
+    "GPS": "35.39381, -82.71196",
+    "area_name": "East Slate Rock",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "1,609",
+    "GPS": "35.449, -82.2143",
+    "area_name": "Rumbling Bald",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,217",
+    "GPS": "35.2948, -82.78817",
+    "area_name": "Looking Glass Rock",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "2,210",
+    "GPS": "35.20249, -82.27738",
+    "area_name": "Melrose Mtn. Climbing Park",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,463",
+    "GPS": "35.15026, -83.0564",
+    "area_name": "Laurel Knob",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "6,041",
+    "GPS": "35.3287, -82.89429",
+    "area_name": "Sam's Knob Ice Climbing",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,786",
+    "GPS": "35.39032, -82.72991",
+    "area_name": "Pilot Rock",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "4,820",
+    "GPS": "35.02297, -83.45794",
+    "area_name": "Pickens Nose",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "2,287",
+    "GPS": "35.3383, -82.60747",
+    "area_name": "Southern Mountains Linkups",
+    "state_name": "North Carolina",
+    "area_id": "105965576"
+  },
+  {
+    "elevation_ft": "3,145",
+    "GPS": "35.46771, -82.3394",
+    "area_name": "Main Wall",
+    "state_name": "North Carolina",
+    "area_id": "124267839"
+  },
+  {
+    "GPS": "35.6037, -79.2773",
+    "area_name": "Un-named wall - - Right of Desperado (middle wall)",
+    "state_name": "North Carolina",
+    "area_id": "106300573"
+  },
+  {
+    "GPS": "43.10887, -69.90743",
+    "area_name": "Just to fool around",
+    "state_name": "New Hampshire",
+    "area_id": "125276725"
+  },
+  {
+    "GPS": "35.6037, -79.2773",
+    "area_name": "Survivor Wall, The",
+    "state_name": "North Carolina",
+    "area_id": "106300573"
+  },
+  {
+    "GPS": "35.6037, -79.2773",
+    "area_name": "Mini Cougar, The",
+    "state_name": "North Carolina",
+    "area_id": "106300573"
+  },
+  {
+    "GPS": "35.6037, -79.2773",
+    "area_name": "Main Wall, The",
+    "state_name": "North Carolina",
+    "area_id": "106300573"
+  },
+  {
+    "elevation_ft": "2,117",
+    "GPS": "35.20205, -82.28014",
+    "area_name": "West Cliff - Mini",
+    "state_name": "North Carolina",
+    "area_id": "119010762"
+  },
+  {
+    "elevation_ft": "4,845",
+    "GPS": "35.02173, -83.45744",
+    "area_name": "Top Rope Wall",
+    "state_name": "North Carolina",
+    "area_id": "108531509"
+  },
+  {
+    "elevation_ft": "5,000",
+    "GPS": "35.02127, -83.4348",
+    "area_name": "Rock House Knob",
+    "state_name": "North Carolina",
+    "area_id": "108531509"
+  },
+  {
+    "elevation_ft": "4,833",
+    "GPS": "35.02365, -83.45859",
+    "area_name": "Cameron's Wall",
+    "state_name": "North Carolina",
+    "area_id": "108531509"
+  },
+  {
+    "elevation_ft": "4,824",
+    "GPS": "35.023, -83.458",
+    "area_name": "Nose",
+    "state_name": "North Carolina",
+    "area_id": "108531509"
+  },
+  {
+    "elevation_ft": "1,992",
+    "GPS": "35.20158, -82.27714",
+    "area_name": "Central Boulder Field",
+    "state_name": "North Carolina",
+    "area_id": "119010762"
+  },
+  {
+    "elevation_ft": "3,738",
+    "GPS": "35.30474, -82.79538",
+    "area_name": "Nose Area",
+    "state_name": "North Carolina",
+    "area_id": "106523678"
+  },
+  {
+    "elevation_ft": "1,817",
+    "GPS": "35.20113, -82.27508",
+    "area_name": "East Cliff",
+    "state_name": "North Carolina",
+    "area_id": "119010762"
+  },
+  {
+    "GPS": "35.30308, -82.79529",
+    "area_name": "Sun Wall",
+    "state_name": "North Carolina",
+    "area_id": "106523678"
+  },
+  {
+    "elevation_ft": "2,142",
+    "GPS": "35.20194, -82.28068",
+    "area_name": "West Cliff - Main",
+    "state_name": "North Carolina",
+    "area_id": "119010762"
+  },
+  {
+    "elevation_ft": "3,248",
+    "GPS": "35.301, -82.7933",
+    "area_name": "Looking Glass Boulders",
+    "state_name": "North Carolina",
+    "area_id": "106523678"
+  },
+  {
+    "GPS": "35.2948, -82.78819",
+    "area_name": "East Face/Guides Wall  (Right Side)",
+    "state_name": "North Carolina",
+    "area_id": "106523678"
+  },
+  {
+    "elevation_ft": "3,209",
+    "GPS": "35.30054, -82.79229",
+    "area_name": "South Side",
+    "state_name": "North Carolina",
+    "area_id": "106523678"
+  },
+  {
+    "GPS": "35.45007, -82.21549",
+    "area_name": "Test Pilots Buttress",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "GPS": "35.449, -82.2143",
+    "area_name": "Tower Of Power",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "GPS": "35.2948, -82.78819",
+    "area_name": "Hidden Wall",
+    "state_name": "North Carolina",
+    "area_id": "106523678"
+  },
+  {
+    "GPS": "35.449, -82.2143",
+    "area_name": "Wall of Solitude, The",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "GPS": "35.2948, -82.78819",
+    "area_name": "East Face/Guides Wall  (Left side)",
+    "state_name": "North Carolina",
+    "area_id": "106523678"
+  },
+  {
+    "elevation_ft": "1,607",
+    "GPS": "35.44899, -82.2143",
+    "area_name": "Rumbling Bald Bouldering",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "elevation_ft": "2,034",
+    "GPS": "35.454, -82.22",
+    "area_name": "Tail of the Cat Area",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "GPS": "35.449, -82.2143",
+    "area_name": "Kennel, The",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "GPS": "35.45054, -82.21654",
+    "area_name": "Paul's Boutique",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "elevation_ft": "1,845",
+    "GPS": "35.45457, -82.2258",
+    "area_name": "Hanging Chain (Left Field)",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "GPS": "35.449, -82.2143",
+    "area_name": "Lakeview Area",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "GPS": "35.45275, -82.21895",
+    "area_name": "Hickory Nutcracker Area",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "GPS": "35.45073, -82.21796",
+    "area_name": "Screamweaver Area",
+    "state_name": "North Carolina",
+    "area_id": "106064894"
+  },
+  {
+    "elevation_ft": "3,459",
+    "GPS": "35.30546, -82.79093",
+    "area_name": "North Side",
+    "state_name": "North Carolina",
+    "area_id": "106523678"
+  },
+  {
+    "elevation_ft": "1,020",
+    "GPS": "35.4506, -82.21944",
+    "area_name": "West Side Boulders",
+    "state_name": "North Carolina",
+    "area_id": "106286581"
+  },
+  {
+    "elevation_ft": "1,721",
+    "GPS": "35.45357, -82.22277",
+    "area_name": "Hanging Chain Boulders",
+    "state_name": "North Carolina",
+    "area_id": "106286581"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "East Side Boulders",
+    "state_name": "North Carolina",
+    "area_id": "106286581"
+  },
+  {
+    "GPS": "35.44899, -82.2143",
+    "area_name": "Central Boulders",
+    "state_name": "North Carolina",
+    "area_id": "106286581"
+  },
+  {
+    "GPS": "35.44943, -82.21858",
+    "area_name": "Trailside Area",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "GPS": "35.34877, -82.16269",
+    "area_name": "Short Wall Boulder, The",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,605",
+    "GPS": "35.44986, -82.21903",
+    "area_name": "Short Crack Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Tail of the Cat Area",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "GPS": "35.34877, -82.16269",
+    "area_name": "Robert's Roof",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "GPS": "35.4518, -82.22036",
+    "area_name": "Terraces, The",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "GPS": "35.34877, -82.16269",
+    "area_name": "Washing Machine Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,739",
+    "GPS": "35.4525, -82.22017",
+    "area_name": "Requiem Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,484",
+    "GPS": "35.44874, -82.21236",
+    "area_name": "Driver Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "GPS": "35.44899, -82.2143",
+    "area_name": "Wishing Well, The",
+    "state_name": "North Carolina",
+    "area_id": "108003659"
+  },
+  {
+    "elevation_ft": "1,579",
+    "GPS": "35.44921, -82.21183",
+    "area_name": "Fire and Ice Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Dab Police",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Diamond Boulder, The",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "13",
+    "GPS": "35.44899, -82.2143",
+    "area_name": "Slash And Burn Boulder",
+    "state_name": "North Carolina",
+    "area_id": "108003659"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Crowd Pleaser & Berry Patio",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "GPS": "35.44899, -82.2143",
+    "area_name": "Brevard Fault, The",
+    "state_name": "North Carolina",
+    "area_id": "108003659"
+  },
+  {
+    "elevation_ft": "1,682",
+    "GPS": "35.45018, -82.21722",
+    "area_name": "Ned's Arete Boulder",
+    "state_name": "North Carolina",
+    "area_id": "108003659"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "V2 Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "GPS": "35.44919, -82.21852",
+    "area_name": "Trailside Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106924339"
+  },
+  {
+    "elevation_ft": "1,379",
+    "GPS": "35.448, -82.2118",
+    "area_name": "Taj Mahal",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,432",
+    "GPS": "35.44853, -82.21211",
+    "area_name": "TV Kids",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Springtime Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Stone Wall",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,658",
+    "GPS": "35.45207, -82.22043",
+    "area_name": "Warm-Up Boulder",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,671",
+    "GPS": "35.45219, -82.22047",
+    "area_name": "Sweet Tea Boulder",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,758",
+    "GPS": "35.4525, -82.22004",
+    "area_name": "Transfomer Area",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,707",
+    "GPS": "35.45226, -82.22029",
+    "area_name": "Porch, The",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,649",
+    "GPS": "35.4518, -82.22035",
+    "area_name": "Patio Roof",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,728",
+    "GPS": "35.4524, -82.22022",
+    "area_name": "Sail, The",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,709",
+    "GPS": "35.45221, -82.22023",
+    "area_name": "Standard Traverse",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,708",
+    "GPS": "35.45208, -82.22017",
+    "area_name": "Nugget, The",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,703",
+    "GPS": "35.45228, -82.22034",
+    "area_name": "Dreamland and Mandibles",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,651",
+    "GPS": "35.4519, -82.22049",
+    "area_name": "Chamber Pot Boulder",
+    "state_name": "North Carolina",
+    "area_id": "124273879"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Silver Platter Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Siam Palace",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,607",
+    "GPS": "35.44934, -82.21273",
+    "area_name": "Razor Burn",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Rift Cluster",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Power Pills",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Red Clouds Above Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Politician Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Playground, The",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Pedestal Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Pit, The",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Overwhelmed Area",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Morning Star & Warm-Up Boulders",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,506",
+    "GPS": "35.44882, -82.21213",
+    "area_name": "Looking Glass Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,612",
+    "GPS": "35.44939, -82.2125",
+    "area_name": "Ice Block, The",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Gym, The",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Gettysburg Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,609",
+    "GPS": "35.44937, -82.21249",
+    "area_name": "Cloak Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Come Out & Play Blocks",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,603",
+    "GPS": "35.44897, -82.2143",
+    "area_name": "Breakfast Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,596",
+    "GPS": "35.44929, -82.2124",
+    "area_name": "Beauty Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,440",
+    "GPS": "35.44861, -82.21211",
+    "area_name": "Brackish Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,601",
+    "GPS": "35.44932, -82.21247",
+    "area_name": "BEARS! Boulder",
+    "state_name": "North Carolina",
+    "area_id": "113831011"
+  },
+  {
+    "elevation_ft": "1,640",
+    "GPS": "35.45159, -82.22038",
+    "area_name": "Opportunist Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,490",
+    "GPS": "35.45021, -82.21912",
+    "area_name": "Hull Area",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,634",
+    "GPS": "35.45059, -82.21944",
+    "area_name": "Recess Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "GPS": "35.34877, -82.16269",
+    "area_name": "Moby Dick Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "GPS": "35.34877, -82.16269",
+    "area_name": "Obscure Area, The",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "GPS": "35.44965, -82.21805",
+    "area_name": "Gateway Boulders",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "12",
+    "GPS": "35.45007, -82.21986",
+    "area_name": "French Maid Area",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,619",
+    "GPS": "35.44977, -82.21876",
+    "area_name": "Devil Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,850",
+    "GPS": "35.44986, -82.21387",
+    "area_name": "Family Boulders",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,633",
+    "GPS": "35.4511, -82.21971",
+    "area_name": "Delusions Boulder",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,642",
+    "GPS": "35.4515, -82.22018",
+    "area_name": "Domestic Affairs",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "1,605",
+    "GPS": "35.4501, -82.2195",
+    "area_name": "Cluster, The",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "GPS": "35.34877, -82.16269",
+    "area_name": "Clumsy Waiter, The",
+    "state_name": "North Carolina",
+    "area_id": "106968871"
+  },
+  {
+    "elevation_ft": "8,041",
+    "GPS": "44.14489, -107.25816",
+    "area_name": "Sphinx Sector",
+    "state_name": "Wyoming",
+    "area_id": "106198605"
+  },
+  {
+    "elevation_ft": "1,602",
+    "GPS": "30.5032, -98.8213",
+    "area_name": "Enchanted Rock State Natural Area",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "542",
+    "GPS": "32.75047, -97.34938",
+    "area_name": "Fort Worth Urban Bouldering",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "485",
+    "GPS": "32.98723, -97.04371",
+    "area_name": "Gerault Bridge",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "1,072",
+    "GPS": "29.87386, -98.48607",
+    "area_name": "Guadalupe River State Park",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "1,846",
+    "GPS": "29.57541, -99.73001",
+    "area_name": "Garner State Park",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "556",
+    "GPS": "32.17432, -97.48159",
+    "area_name": "Hamm Creek Park",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "7,000",
+    "GPS": "31.794, -106.49109",
+    "area_name": "Franklin Mountain Range",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "1,030",
+    "GPS": "29.60195, -98.6024",
+    "area_name": "Fiesta Wall",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "622",
+    "GPS": "33.8142, -96.6079",
+    "area_name": "Eisenhower State Park",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "15",
+    "GPS": "27.76959, -97.38726",
+    "area_name": "Corpus Christi",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "1,974",
+    "GPS": "29.9771, -99.9607",
+    "area_name": "Camp Eagle",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "1,051",
+    "GPS": "29.64744, -98.47002",
+    "area_name": "Cub Cave",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "588",
+    "GPS": "32.83922, -96.78106",
+    "area_name": "Dedman Center for Lifetime Sports at SMU",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "973",
+    "GPS": "29.93025, -98.32761",
+    "area_name": "Devil's Hollow",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "2,493",
+    "GPS": "34.44076, -101.09305",
+    "area_name": "Caprock Canyons State Park",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "1,329",
+    "GPS": "29.80319, -101.44009",
+    "area_name": "Continental Ranch",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "1,452",
+    "GPS": "31.8366, -99.0067",
+    "area_name": "Brownwood",
+    "state_name": "Texas",
+    "area_id": "108516790"
+  },
+  {
+    "elevation_ft": "322",
+    "GPS": "40.25428, -76.88695",
+    "area_name": "South Central PA",
+    "state_name": "Pennsylvania",
+    "area_id": "109481667"
+  },
+  {
+    "elevation_ft": "1,167",
+    "GPS": "40.31929, -79.66463",
+    "area_name": "Southwestern Highlands",
+    "state_name": "Pennsylvania",
+    "area_id": "109481667"
+  },
+  {
+    "elevation_ft": "2,062",
+    "GPS": "41.42828, -75.75349",
+    "area_name": "Northeast Ridges and Valleys",
+    "state_name": "Pennsylvania",
+    "area_id": "109481667"
+  },
+  {
+    "elevation_ft": "1,437",
+    "GPS": "41.69339, -79.85415",
+    "area_name": "Northwest, The",
+    "state_name": "Pennsylvania",
+    "area_id": "109481667"
+  },
+  {
+    "elevation_ft": "359",
+    "GPS": "40.24229, -75.10873",
+    "area_name": "Southeastern Lowlands",
+    "state_name": "Pennsylvania",
+    "area_id": "109481667"
+  },
+  {
+    "elevation_ft": "175",
+    "GPS": "41.37981, -71.73944",
+    "area_name": "Woody Hill South County",
+    "state_name": "Rhode Island",
+    "area_id": "123659681"
+  },
+  {
+    "elevation_ft": "4,988",
+    "GPS": "31.8539, -106.50345",
+    "area_name": "Xiu Boulder",
+    "state_name": "Texas",
+    "area_id": "113728053"
+  },
+  {
+    "elevation_ft": "1,145",
+    "GPS": "40.79337, -77.86035",
+    "area_name": "Central PA",
+    "state_name": "Pennsylvania",
+    "area_id": "109481667"
+  },
+  {
+    "elevation_ft": "4,830",
+    "GPS": "31.80629, -106.477",
+    "area_name": "Wyler Red Walls",
+    "state_name": "Texas",
+    "area_id": "113728053"
+  },
+  {
+    "elevation_ft": "6,042",
+    "GPS": "31.92525, -106.49991",
+    "area_name": "Tom Mays Park",
+    "state_name": "Texas",
+    "area_id": "113728053"
+  },
+  {
+    "elevation_ft": "4,374",
+    "GPS": "31.79469, -106.49156",
+    "area_name": "Whispering Springs Canyon",
+    "state_name": "Texas",
+    "area_id": "113728053"
+  },
+  {
+    "GPS": "29.96722, -99.96027",
+    "area_name": "South Rim Wall",
+    "state_name": "Texas",
+    "area_id": "106167116"
+  },
+  {
+    "elevation_ft": "588",
+    "GPS": "32.83922, -96.78106",
+    "area_name": "Taos Tower",
+    "state_name": "Texas",
+    "area_id": "123945171"
+  },
+  {
+    "elevation_ft": "1,100",
+    "GPS": "29.93979, -98.33383",
+    "area_name": "Roof Cave",
+    "state_name": "Texas",
+    "area_id": "123803691"
+  },
+  {
+    "elevation_ft": "960",
+    "GPS": "40.764, -76.59498",
+    "area_name": "Whaleback Mountain",
+    "state_name": "Pennsylvania",
+    "area_id": "111808253"
+  },
+  {
+    "elevation_ft": "1,330",
+    "GPS": "29.8032, -101.4401",
+    "area_name": "Weir Dam Sector",
+    "state_name": "Texas",
+    "area_id": "106230704"
+  },
+  {
+    "elevation_ft": "588",
+    "GPS": "32.83923, -96.78106",
+    "area_name": "Hueco Bouldering Wall",
+    "state_name": "Texas",
+    "area_id": "123945171"
+  },
+  {
+    "elevation_ft": "1,200",
+    "GPS": "40.16391, -78.2934",
+    "area_name": "Woodcock Valley",
+    "state_name": "Pennsylvania",
+    "area_id": "111808253"
+  },
+  {
+    "elevation_ft": "595",
+    "GPS": "40.13197, -77.08831",
+    "area_name": "White Rock Acres",
+    "state_name": "Pennsylvania",
+    "area_id": "111808253"
+  },
+  {
+    "elevation_ft": "846",
+    "GPS": "40.08874, -79.73033",
+    "area_name": "Washington Run Gorge (Perryopolis)",
+    "state_name": "Pennsylvania",
+    "area_id": "111630398"
+  },
+  {
+    "elevation_ft": "1,074",
+    "GPS": "40.0959, -77.1326",
+    "area_name": "Whiskey Springs",
+    "state_name": "Pennsylvania",
+    "area_id": "111808253"
+  },
+  {
+    "elevation_ft": "132",
+    "GPS": "41.37198, -71.74123",
+    "area_name": "Standing Stone and Alien Boulder Eratics",
+    "state_name": "Rhode Island",
+    "area_id": "123677176"
+  },
+  {
+    "elevation_ft": "140",
+    "GPS": "40.22561, -74.96258",
+    "area_name": "Tyler Park Bouldering",
+    "state_name": "Pennsylvania",
+    "area_id": "122194998"
+  },
+  {
+    "elevation_ft": "126",
+    "GPS": "39.91984, -75.3616",
+    "area_name": "Smedley Park",
+    "state_name": "Pennsylvania",
+    "area_id": "122194998"
+  },
+  {
+    "elevation_ft": "146",
+    "GPS": "41.38023, -71.74801",
+    "area_name": "Slab Boulder",
+    "state_name": "Rhode Island",
+    "area_id": "123677176"
+  },
+  {
+    "elevation_ft": "144",
+    "GPS": "41.37953, -71.73976",
+    "area_name": "Pond Area",
+    "state_name": "Rhode Island",
+    "area_id": "123677176"
+  },
+  {
+    "elevation_ft": "191",
+    "GPS": "41.38061, -71.74378",
+    "area_name": "Hollow",
+    "state_name": "Rhode Island",
+    "area_id": "123677176"
+  },
+  {
+    "elevation_ft": "5,571",
+    "GPS": "31.89657, -106.48645",
+    "area_name": "Whispering Springs Canyon Spire",
+    "state_name": "Texas",
+    "area_id": "118228901"
+  },
+  {
+    "elevation_ft": "141",
+    "GPS": "41.37976, -71.74768",
+    "area_name": "Halloween, Quartz, and Iron boulder eratics.",
+    "state_name": "Rhode Island",
+    "area_id": "123677176"
+  },
+  {
+    "elevation_ft": "1,049",
+    "GPS": "40.09618, -77.13221",
+    "area_name": "Webber Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "106295313"
+  },
+  {
+    "elevation_ft": "1,074",
+    "GPS": "40.096, -77.13226",
+    "area_name": "Vulture View Area",
+    "state_name": "Pennsylvania",
+    "area_id": "106295313"
+  },
+  {
+    "elevation_ft": "1,067",
+    "GPS": "40.09608, -77.13207",
+    "area_name": "Entrance Area",
+    "state_name": "Pennsylvania",
+    "area_id": "106295313"
+  },
+  {
+    "elevation_ft": "141",
+    "GPS": "41.37976, -71.74768",
+    "area_name": "Halloween Boulder",
+    "state_name": "Rhode Island",
+    "area_id": "123660150"
+  },
+  {
+    "elevation_ft": "141",
+    "GPS": "41.37976, -71.74768",
+    "area_name": "Iron Boulder",
+    "state_name": "Rhode Island",
+    "area_id": "123660150"
+  },
+  {
+    "elevation_ft": "140",
+    "GPS": "41.37986, -71.74762",
+    "area_name": "Quartz Boulder",
+    "state_name": "Rhode Island",
+    "area_id": "123660150"
+  },
+  {
+    "elevation_ft": "126",
+    "GPS": "41.37955, -71.74054",
+    "area_name": "Yankee Clipper",
+    "state_name": "Rhode Island",
+    "area_id": "123745620"
+  },
+  {
+    "elevation_ft": "160",
+    "GPS": "41.37961, -71.73961",
+    "area_name": "WarmUp Wall",
+    "state_name": "Rhode Island",
+    "area_id": "123745620"
+  },
+  {
+    "elevation_ft": "178",
+    "GPS": "41.37989, -71.73898",
+    "area_name": "Turtle Head, The",
+    "state_name": "Rhode Island",
+    "area_id": "123745620"
+  },
+  {
+    "elevation_ft": "121",
+    "GPS": "41.37925, -71.74101",
+    "area_name": "Pipeline",
+    "state_name": "Rhode Island",
+    "area_id": "123745620"
+  },
+  {
+    "elevation_ft": "176",
+    "GPS": "41.38018, -71.73946",
+    "area_name": "Barefoot Wall",
+    "state_name": "Rhode Island",
+    "area_id": "123745620"
+  },
+  {
+    "elevation_ft": "175",
+    "GPS": "41.37976, -71.73931",
+    "area_name": "Crag, The",
+    "state_name": "Rhode Island",
+    "area_id": "123745620"
+  },
+  {
+    "elevation_ft": "916",
+    "GPS": "40.08502, -79.73895",
+    "area_name": "Water Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "elevation_ft": "849",
+    "GPS": "40.08789, -79.73243",
+    "area_name": "Road Cut",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "elevation_ft": "1,085",
+    "GPS": "40.09573, -77.13286",
+    "area_name": "Cranking Area",
+    "state_name": "Pennsylvania",
+    "area_id": "106295313"
+  },
+  {
+    "elevation_ft": "934",
+    "GPS": "40.08803, -79.72774",
+    "area_name": "Trail Crag (Yough Cliffs)",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "elevation_ft": "812",
+    "GPS": "40.08831, -79.7297",
+    "area_name": "Parking Lot Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "elevation_ft": "828",
+    "GPS": "40.08872, -79.7302",
+    "area_name": "Cave Crag (Yough Cliffs), The",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "elevation_ft": "821",
+    "GPS": "40.08625, -79.73359",
+    "area_name": "Overhang Cliffs",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "elevation_ft": "818",
+    "GPS": "40.08768, -79.71786",
+    "area_name": "Bike Trail Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "elevation_ft": "899",
+    "GPS": "40.08598, -79.73892",
+    "area_name": "Choss Face",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "GPS": "40.13197, -77.08831",
+    "area_name": "White Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "108150995"
+  },
+  {
+    "elevation_ft": "871",
+    "GPS": "40.08853, -79.73123",
+    "area_name": "Approach Rocks",
+    "state_name": "Pennsylvania",
+    "area_id": "111759427"
+  },
+  {
+    "GPS": "40.13197, -77.08831",
+    "area_name": "White Rock Acres Bouldering",
+    "state_name": "Pennsylvania",
+    "area_id": "108150995"
+  },
+  {
+    "elevation_ft": "1,008",
+    "GPS": "40.12608, -77.09397",
+    "area_name": "Main Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "108150995"
+  },
+  {
+    "GPS": "40.13197, -77.08831",
+    "area_name": "Bubba Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "108158887"
+  },
+  {
+    "elevation_ft": "4,963",
+    "GPS": "31.91525, -106.50991",
+    "area_name": "Sneed's Cory",
+    "state_name": "Texas",
+    "area_id": "106207261"
+  },
+  {
+    "GPS": "31.92525, -106.49991",
+    "area_name": "Mundy's Wall",
+    "state_name": "Texas",
+    "area_id": "106207261"
+  },
+  {
+    "GPS": "31.92525, -106.49991",
+    "area_name": "Aztec Caves",
+    "state_name": "Texas",
+    "area_id": "106207261"
+  },
+  {
+    "elevation_ft": "2,082",
+    "GPS": "41.64351, -76.69677",
+    "area_name": "Sunfish Pond County Park",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "1,166",
+    "GPS": "41.47022, -76.58107",
+    "area_name": "Worlds End State Park",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "2,021",
+    "GPS": "41.65384, -76.65636",
+    "area_name": "State Game Lands 12 & 36",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "2,031",
+    "GPS": "41.63633, -77.11501",
+    "area_name": "Route 15 Fern Garden",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "651",
+    "GPS": "41.25208, -77.61211",
+    "area_name": "Lock Haven",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "905",
+    "GPS": "40.85045, -77.82207",
+    "area_name": "Little Scandinavia",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "1,082",
+    "GPS": "41.5085, -76.934",
+    "area_name": "Rock Run",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "971",
+    "GPS": "40.5502, -77.8586",
+    "area_name": "Hunter's Rocks (Rocky Ridge Natural Area)",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "862",
+    "GPS": "40.57285, -77.9437",
+    "area_name": "Donation Rocks",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "1,482",
+    "GPS": "40.72808, -77.88517",
+    "area_name": "Eversince Area",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "1,273",
+    "GPS": "41.72229, -77.44355",
+    "area_name": "Chimney Hollow Falls (Ice)",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "1,715",
+    "GPS": "40.46686, -78.82957",
+    "area_name": "Blacklick Tressle",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "1,571",
+    "GPS": "41.67514, -77.07595",
+    "area_name": "Boone Run",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "2,086",
+    "GPS": "41.80349, -77.5474",
+    "area_name": "Blue Run Rocks",
+    "state_name": "Pennsylvania",
+    "area_id": "111937857"
+  },
+  {
+    "elevation_ft": "104",
+    "GPS": "39.89432, -75.38876",
+    "area_name": "Saul Preserve",
+    "state_name": "Pennsylvania",
+    "area_id": "122194998"
+  },
+  {
+    "GPS": "31.92525, -106.49991",
+    "area_name": "Aztec Wall",
+    "state_name": "Texas",
+    "area_id": "106999494"
+  },
+  {
+    "elevation_ft": "2,119",
+    "GPS": "41.63861, -76.69794",
+    "area_name": "Southside",
+    "state_name": "Pennsylvania",
+    "area_id": "108412487"
+  },
+  {
+    "elevation_ft": "2,005",
+    "GPS": "41.63567, -77.11494",
+    "area_name": "Zebra Block",
+    "state_name": "Pennsylvania",
+    "area_id": "118028323"
+  },
+  {
+    "elevation_ft": "1,998",
+    "GPS": "41.63665, -77.11364",
+    "area_name": "Silverback",
+    "state_name": "Pennsylvania",
+    "area_id": "118028323"
+  },
+  {
+    "elevation_ft": "1,033",
+    "GPS": "40.5589, -77.8528",
+    "area_name": "Powercut, The",
+    "state_name": "Pennsylvania",
+    "area_id": "107402094"
+  },
+  {
+    "GPS": "40.5502, -77.8586",
+    "area_name": "Private Property - do not use",
+    "state_name": "Pennsylvania",
+    "area_id": "107402094"
+  },
+  {
+    "elevation_ft": "1,016",
+    "GPS": "40.57427, -77.94377",
+    "area_name": "Upper Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "119051325"
+  },
+  {
+    "elevation_ft": "861",
+    "GPS": "40.57285, -77.94371",
+    "area_name": "Lower Walls",
+    "state_name": "Pennsylvania",
+    "area_id": "119051325"
+  },
+  {
+    "elevation_ft": "874",
+    "GPS": "40.57332, -77.94374",
+    "area_name": "Main Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "119051325"
+  },
+  {
+    "elevation_ft": "10",
+    "GPS": "41.8035, -77.5474",
+    "area_name": "Vila Boulder, The",
+    "state_name": "Pennsylvania",
+    "area_id": "107903250"
+  },
+  {
+    "GPS": "41.80355, -77.54746",
+    "area_name": "Main Attraction, The",
+    "state_name": "Pennsylvania",
+    "area_id": "107903250"
+  },
+  {
+    "elevation_ft": "2,086",
+    "GPS": "41.80386, -77.54735",
+    "area_name": "Ship Rock (Shipwreck Boulder)",
+    "state_name": "Pennsylvania",
+    "area_id": "107903250"
+  },
+  {
+    "GPS": "41.8035, -77.5474",
+    "area_name": "Lichen Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "107903250"
+  },
+  {
+    "GPS": "41.8035, -77.5474",
+    "area_name": "Campfire Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "107903250"
+  },
+  {
+    "elevation_ft": "861",
+    "GPS": "40.57285, -77.94371",
+    "area_name": "Triceps Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "118022407"
+  },
+  {
+    "elevation_ft": "1,021",
+    "GPS": "40.57438, -77.9438",
+    "area_name": "Upper Wall Main Face",
+    "state_name": "Pennsylvania",
+    "area_id": "122199301"
+  },
+  {
+    "elevation_ft": "869",
+    "GPS": "40.57313, -77.94374",
+    "area_name": "Right Side",
+    "state_name": "Pennsylvania",
+    "area_id": "122999626"
+  },
+  {
+    "elevation_ft": "881",
+    "GPS": "40.57325, -77.94383",
+    "area_name": "Slab Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "122999626"
+  },
+  {
+    "elevation_ft": "871",
+    "GPS": "40.57317, -77.94377",
+    "area_name": "Jam Crack Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "122999626"
+  },
+  {
+    "elevation_ft": "868",
+    "GPS": "40.5731, -77.94374",
+    "area_name": "Big Gully",
+    "state_name": "Pennsylvania",
+    "area_id": "122999626"
+  },
+  {
+    "elevation_ft": "874",
+    "GPS": "40.57332, -77.94374",
+    "area_name": "Africa Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "122999626"
+  },
+  {
+    "elevation_ft": "880",
+    "GPS": "40.57324, -77.94383",
+    "area_name": "Buttress",
+    "state_name": "Pennsylvania",
+    "area_id": "122999626"
+  },
+  {
+    "elevation_ft": "860",
+    "GPS": "40.57277, -77.94366",
+    "area_name": "Southside Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "118022407"
+  },
+  {
+    "elevation_ft": "861",
+    "GPS": "40.57285, -77.94371",
+    "area_name": "Front Walls",
+    "state_name": "Pennsylvania",
+    "area_id": "118022407"
+  },
+  {
+    "elevation_ft": "862",
+    "GPS": "40.57284, -77.94369",
+    "area_name": "Southside Gully",
+    "state_name": "Pennsylvania",
+    "area_id": "118022407"
+  },
+  {
+    "elevation_ft": "1,015",
+    "GPS": "40.5743, -77.9438",
+    "area_name": "Left End Wall & Ar\u00eate",
+    "state_name": "Pennsylvania",
+    "area_id": "122199301"
+  },
+  {
+    "elevation_ft": "1,033",
+    "GPS": "40.5589, -77.8528",
+    "area_name": "Powercut Unsorted Problem List, The",
+    "state_name": "Pennsylvania",
+    "area_id": "124357303"
+  },
+  {
+    "elevation_ft": "1,198",
+    "GPS": "40.56062, -77.85584",
+    "area_name": "Powercut South",
+    "state_name": "Pennsylvania",
+    "area_id": "124357303"
+  },
+  {
+    "elevation_ft": "1,198",
+    "GPS": "40.5621, -77.85506",
+    "area_name": "Powercut Central",
+    "state_name": "Pennsylvania",
+    "area_id": "124357303"
+  },
+  {
+    "elevation_ft": "1,181",
+    "GPS": "40.56311, -77.85443",
+    "area_name": "Powercut North",
+    "state_name": "Pennsylvania",
+    "area_id": "124357303"
+  },
+  {
+    "GPS": "41.8035, -77.5474",
+    "area_name": "Aider's Rock",
+    "state_name": "Pennsylvania",
+    "area_id": "107903250"
+  },
+  {
+    "elevation_ft": "1,199",
+    "GPS": "40.56259, -77.85469",
+    "area_name": "Wave Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "125069730"
+  },
+  {
+    "elevation_ft": "1,179",
+    "GPS": "40.56318, -77.85429",
+    "area_name": "Three Amigos, The",
+    "state_name": "Pennsylvania",
+    "area_id": "125069730"
+  },
+  {
+    "elevation_ft": "1,194",
+    "GPS": "40.5628, -77.85461",
+    "area_name": "Ribcage Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "125069730"
+  },
+  {
+    "elevation_ft": "1,195",
+    "GPS": "40.56269, -77.85464",
+    "area_name": "Other Powercut North Boulders",
+    "state_name": "Pennsylvania",
+    "area_id": "125069730"
+  },
+  {
+    "elevation_ft": "1,193",
+    "GPS": "40.563, -77.8544",
+    "area_name": "Blockhead Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "125069730"
+  },
+  {
+    "elevation_ft": "1,139",
+    "GPS": "40.56278, -77.85362",
+    "area_name": "First Church Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "125069730"
+  },
+  {
+    "elevation_ft": "1,165",
+    "GPS": "40.56133, -77.85577",
+    "area_name": "Hunger Artist Area",
+    "state_name": "Pennsylvania",
+    "area_id": "125288857"
+  },
+  {
+    "elevation_ft": "1,188",
+    "GPS": "40.56114, -77.85545",
+    "area_name": "Other Powercut South Boulders",
+    "state_name": "Pennsylvania",
+    "area_id": "125288857"
+  },
+  {
+    "elevation_ft": "1,168",
+    "GPS": "40.56053, -77.85633",
+    "area_name": "Recovery Cave Area",
+    "state_name": "Pennsylvania",
+    "area_id": "125288857"
+  },
+  {
+    "elevation_ft": "903",
+    "GPS": "40.5649, -77.849",
+    "area_name": "Oaks, The",
+    "state_name": "Pennsylvania",
+    "area_id": "107402094"
+  },
+  {
+    "elevation_ft": "994",
+    "GPS": "40.5742, -77.94381",
+    "area_name": "Damnation Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "119051325"
+  },
+  {
+    "elevation_ft": "967",
+    "GPS": "40.5503, -77.8587",
+    "area_name": "Main Area, The",
+    "state_name": "Pennsylvania",
+    "area_id": "107402094"
+  },
+  {
+    "elevation_ft": "871",
+    "GPS": "40.57304, -77.84469",
+    "area_name": "North Hunters",
+    "state_name": "Pennsylvania",
+    "area_id": "107402094"
+  },
+  {
+    "elevation_ft": "1,026",
+    "GPS": "40.5646, -77.85441",
+    "area_name": "Garden, The",
+    "state_name": "Pennsylvania",
+    "area_id": "107402094"
+  },
+  {
+    "elevation_ft": "1,755",
+    "GPS": "41.52201, -76.92186",
+    "area_name": "Ridge Area",
+    "state_name": "Pennsylvania",
+    "area_id": "111018792"
+  },
+  {
+    "elevation_ft": "1,755",
+    "GPS": "41.51873, -76.94408",
+    "area_name": "Weeping Ruins Area",
+    "state_name": "Pennsylvania",
+    "area_id": "111018792"
+  },
+  {
+    "elevation_ft": "1,149",
+    "GPS": "40.56361, -77.85409",
+    "area_name": "Celery Roof, The",
+    "state_name": "Pennsylvania",
+    "area_id": "107402094"
+  },
+  {
+    "elevation_ft": "1,132",
+    "GPS": "41.51595, -76.91769",
+    "area_name": "High Noon Area",
+    "state_name": "Pennsylvania",
+    "area_id": "111018792"
+  },
+  {
+    "elevation_ft": "978",
+    "GPS": "41.5061, -76.9382",
+    "area_name": "Main Area",
+    "state_name": "Pennsylvania",
+    "area_id": "111018792"
+  },
+  {
+    "elevation_ft": "2,004",
+    "GPS": "41.63551, -77.11545",
+    "area_name": "Black Madonna",
+    "state_name": "Pennsylvania",
+    "area_id": "118028323"
+  },
+  {
+    "elevation_ft": "1,997",
+    "GPS": "41.63657, -77.11375",
+    "area_name": "Pride Rock",
+    "state_name": "Pennsylvania",
+    "area_id": "118028323"
+  },
+  {
+    "elevation_ft": "2,019",
+    "GPS": "41.63659, -77.1139",
+    "area_name": "\"Hello\" Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "118028323"
+  },
+  {
+    "elevation_ft": "988",
+    "GPS": "40.57418, -77.94383",
+    "area_name": "Right Side",
+    "state_name": "Pennsylvania",
+    "area_id": "118022535"
+  },
+  {
+    "elevation_ft": "851",
+    "GPS": "41.31266, -77.63054",
+    "area_name": "Corrugated Canyon",
+    "state_name": "Pennsylvania",
+    "area_id": "121993400"
+  },
+  {
+    "elevation_ft": "649",
+    "GPS": "41.25208, -77.6121",
+    "area_name": "Roadside Gully",
+    "state_name": "Pennsylvania",
+    "area_id": "121993400"
+  },
+  {
+    "elevation_ft": "991",
+    "GPS": "40.57422, -77.94383",
+    "area_name": "Left Side",
+    "state_name": "Pennsylvania",
+    "area_id": "118022535"
+  },
+  {
+    "elevation_ft": "1,061",
+    "GPS": "41.5079, -76.9361",
+    "area_name": "Wave Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "107393325"
+  },
+  {
+    "GPS": "41.5061, -76.9382",
+    "area_name": "Godzilla Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "107393325"
+  },
+  {
+    "GPS": "41.5061, -76.9382",
+    "area_name": "Slipper Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "107393325"
+  },
+  {
+    "GPS": "41.5061, -76.9382",
+    "area_name": "Mosquito Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "107393325"
+  },
+  {
+    "GPS": "41.5061, -76.9382",
+    "area_name": "Heavy Petting Zoo Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "107393325"
+  },
+  {
+    "GPS": "41.51873, -76.94408",
+    "area_name": "Hendrix Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "111088821"
+  },
+  {
+    "GPS": "41.52201, -76.92186",
+    "area_name": "Unknown Boulder C",
+    "state_name": "Pennsylvania",
+    "area_id": "111145690"
+  },
+  {
+    "GPS": "41.51956, -76.94527",
+    "area_name": "Diamond Roof",
+    "state_name": "Pennsylvania",
+    "area_id": "111088821"
+  },
+  {
+    "elevation_ft": "1,740",
+    "GPS": "41.5211, -76.94566",
+    "area_name": "Give Me My Dawns Back!",
+    "state_name": "Pennsylvania",
+    "area_id": "111088821"
+  },
+  {
+    "GPS": "41.52201, -76.92186",
+    "area_name": "Unknown Boulder B",
+    "state_name": "Pennsylvania",
+    "area_id": "111145690"
+  },
+  {
+    "GPS": "41.52201, -76.92186",
+    "area_name": "Unknown Boulder D",
+    "state_name": "Pennsylvania",
+    "area_id": "111145690"
+  },
+  {
+    "GPS": "41.51873, -76.94408",
+    "area_name": "Weeping Ruin Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "111088821"
+  },
+  {
+    "GPS": "41.52201, -76.92186",
+    "area_name": "Unknown Boulder A",
+    "state_name": "Pennsylvania",
+    "area_id": "111145690"
+  },
+  {
+    "GPS": "41.52201, -76.92186",
+    "area_name": "Scattered Boulders",
+    "state_name": "Pennsylvania",
+    "area_id": "111145690"
+  },
+  {
+    "GPS": "41.52201, -76.92186",
+    "area_name": "Cliff Line",
+    "state_name": "Pennsylvania",
+    "area_id": "111145690"
+  },
+  {
+    "elevation_ft": "1,095",
+    "GPS": "40.5489, -77.86404",
+    "area_name": "Vedawuoo Dropout",
+    "state_name": "Pennsylvania",
+    "area_id": "124224819"
+  },
+  {
+    "elevation_ft": "966",
+    "GPS": "40.5503, -77.85869",
+    "area_name": "Horsepens Boulder, The",
+    "state_name": "Pennsylvania",
+    "area_id": "124224819"
+  },
+  {
+    "elevation_ft": "966",
+    "GPS": "40.5503, -77.8587",
+    "area_name": "Hillside Attraction",
+    "state_name": "Pennsylvania",
+    "area_id": "124224819"
+  },
+  {
+    "elevation_ft": "966",
+    "GPS": "40.5503, -77.85869",
+    "area_name": "Standard American Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "124224819"
+  },
+  {
+    "elevation_ft": "966",
+    "GPS": "40.5503, -77.8587",
+    "area_name": "Problem list",
+    "state_name": "Pennsylvania",
+    "area_id": "124224819"
+  },
+  {
+    "elevation_ft": "1,979",
+    "GPS": "41.65309, -76.64839",
+    "area_name": "Triple Roofs",
+    "state_name": "Pennsylvania",
+    "area_id": "116673068"
+  },
+  {
+    "elevation_ft": "1,817",
+    "GPS": "41.66027, -76.58252",
+    "area_name": "Long Valley",
+    "state_name": "Pennsylvania",
+    "area_id": "116673068"
+  },
+  {
+    "elevation_ft": "1,910",
+    "GPS": "41.64839, -76.62661",
+    "area_name": "Barclay Cemetery",
+    "state_name": "Pennsylvania",
+    "area_id": "116673068"
+  },
+  {
+    "elevation_ft": "1,845",
+    "GPS": "41.43782, -76.60725",
+    "area_name": "Rock Garden",
+    "state_name": "Pennsylvania",
+    "area_id": "111937895"
+  },
+  {
+    "elevation_ft": "2,108",
+    "GPS": "41.63089, -76.68799",
+    "area_name": "Annex",
+    "state_name": "Pennsylvania",
+    "area_id": "108412487"
+  },
+  {
+    "elevation_ft": "2,162",
+    "GPS": "41.64386, -76.70188",
+    "area_name": "Main Area",
+    "state_name": "Pennsylvania",
+    "area_id": "108412487"
+  },
+  {
+    "elevation_ft": "2,015",
+    "GPS": "41.64533, -76.65103",
+    "area_name": "Carbon Run",
+    "state_name": "Pennsylvania",
+    "area_id": "108412487"
+  },
+  {
+    "elevation_ft": "401",
+    "GPS": "40.17981, -75.73198",
+    "area_name": "Saint Peter's Village",
+    "state_name": "Pennsylvania",
+    "area_id": "122194998"
+  },
+  {
+    "elevation_ft": "1,979",
+    "GPS": "41.65309, -76.64838",
+    "area_name": "Gnome Roof",
+    "state_name": "Pennsylvania",
+    "area_id": "116673118"
+  },
+  {
+    "elevation_ft": "315",
+    "GPS": "39.94528, -75.42376",
+    "area_name": "Ridley Creek Boulders",
+    "state_name": "Pennsylvania",
+    "area_id": "122194998"
+  },
+  {
+    "elevation_ft": "1,979",
+    "GPS": "41.65309, -76.64838",
+    "area_name": "Mcdonald's Roof",
+    "state_name": "Pennsylvania",
+    "area_id": "116673118"
+  },
+  {
+    "elevation_ft": "1,989",
+    "GPS": "41.65498, -76.6474",
+    "area_name": "Bear\u2019s Den Boulder",
+    "state_name": "Pennsylvania",
+    "area_id": "116673118"
+  },
+  {
+    "elevation_ft": "421",
+    "GPS": "40.44089, -75.10068",
+    "area_name": "Ralph Stover State Park (High Rocks)",
+    "state_name": "Pennsylvania",
+    "area_id": "122194998"
+  },
+  {
+    "elevation_ft": "2,108",
+    "GPS": "41.63089, -76.68799",
+    "area_name": "Women King",
+    "state_name": "Pennsylvania",
+    "area_id": "116672711"
+  },
+  {
+    "elevation_ft": "2,113",
+    "GPS": "41.63127, -76.68768",
+    "area_name": "Vulcan",
+    "state_name": "Pennsylvania",
+    "area_id": "116672711"
+  },
+  {
+    "elevation_ft": "371",
+    "GPS": "40.44163, -75.09636",
+    "area_name": "p. Obnoxious Partner",
+    "state_name": "Pennsylvania",
+    "area_id": "122283505"
+  },
+  {
+    "elevation_ft": "354",
+    "GPS": "40.44158, -75.09739",
+    "area_name": "m. Noncensus Area",
+    "state_name": "Pennsylvania",
+    "area_id": "122283505"
+  },
+  {
+    "elevation_ft": "326",
+    "GPS": "40.44139, -75.09808",
+    "area_name": "j. The Great Zawn",
+    "state_name": "Pennsylvania",
+    "area_id": "122283505"
+  },
+  {
+    "elevation_ft": "374",
+    "GPS": "40.44162, -75.09668",
+    "area_name": "o. Chain Reaction Buttress",
+    "state_name": "Pennsylvania",
+    "area_id": "122283505"
+  },
+  {
+    "elevation_ft": "292",
+    "GPS": "40.44147, -75.09748",
+    "area_name": "l. Hawk's Nest",
+    "state_name": "Pennsylvania",
+    "area_id": "122283505"
+  },
+  {
+    "elevation_ft": "268",
+    "GPS": "40.44115, -75.09862",
+    "area_name": "g. The Great Buttress",
+    "state_name": "Pennsylvania",
+    "area_id": "122283505"
+  },
+  {
+    "elevation_ft": "312",
+    "GPS": "40.4413, -75.09844",
+    "area_name": "h. Open Face",
+    "state_name": "Pennsylvania",
+    "area_id": "122283505"
+  },
+  {
+    "elevation_ft": "258",
+    "GPS": "40.44076, -75.09922",
+    "area_name": "d. Tango Wall",
+    "state_name": "Pennsylvania",
+    "area_id": "122283505"
+  },
+  {
+    "elevation_ft": "1,455",
+    "GPS": "31.83694, -99.00597",
+    "area_name": "Beer Bottle Boulders",
+    "state_name": "Texas",
+    "area_id": "107217409"
+  },
+  {
+    "elevation_ft": "683",
+    "GPS": "32.17479, -97.46794",
+    "area_name": "Carrion Wall and Indian Head area",
+    "state_name": "Texas",
+    "area_id": "114487583"
+  }
+]
