@@ -7,8 +7,7 @@ A MountainProject.com web scraper and data organizer.
 
 This web scraper will collect area and route data across mountain project. This data can then be uploaded to a SQL database for further data exploration. 
 
-## Getting Started
-
+## Getting Started:
 ### Dependencies
 
 Dependencies are outlined in the requirements.txt file as well as below:
@@ -32,12 +31,51 @@ cd MtnProject
 git pull origin main
 ```
 ### Executing program
+* To execute the spider run the following command:
+```
+scrapy crawl mtnspider 
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+* If you would like to test the spider before running it in full, run the parser with a limited pagecount. This will allow you to see if the parser logic is working without scraping from the entire website. 
+To execute the spider with limited pagecount, use the following command:
 ```
+scrapy crawl mtnspider -s CLOSESPIDER_PAGECOUNT=20
+
+```
+**All scraped data will be cleaned and stored in the SQL database associated with the spider** 
+per the pipelines.py file
+
+* To open the associated database, run the following command:
+```
+sqlite3 mtnspider_json.db
+```
+**The database contains three main tables, AreaData, RouteData, and StatData**
+**AreaData** contains information about various areas, with each record including details such as:
+
+- `elevation_ft`: Elevation of the area in feet.
+- `GPS`: GPS coordinates of the area.
+- `area_name`: Name of the area.
+- `state_name`: Name of the state where the area is located.
+- `area_id`: A unique identifier for the area.
+
+**RouteData** contains information about different climbing routes, with each record including details such as:
+
+- `climb_type`: Type of the climb (e.g., Boulder).
+- `climb_height_ft` and `climb_height_m`: Height of the climb in feet and meters.
+- `first_ascent`: The name of the person who first ascended the route.
+- `page_views_total` and `page_views_per_month`: Total and monthly page views for the route.
+- `gradeYDS` and `gradeFont`: Climbing difficulty grades in the YDS (Yosemite Decimal System) and Fontainebleau grading systems.
+- `state_name`: Name of the state where the climb is located.
+- `area_id` and `area_name`: Identifier and name of the area where the route is located.
+- `route_id` and `route_name`: Identifier and name of the route.
+
+**StatData** contains statistical data related to climbing routes, with each record including:
+
+- `route_id`: A unique identifier for the climbing route.
+- `avg_stars`: The average star rating given to the route.
+- `num_votes`: The number of votes or ratings the route has received.
+
+For example, the first record corresponds to the route with ID `108516795`, which has an average star rating of 0.0 based on 0 votes.
 
 ## Help
 
@@ -50,23 +88,5 @@ command to run if program contains helper info
 
 Taylor A Portman
 
-## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
-## License
-
-This project is licensed under the [License Name] - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://github.com/PurpleBooth)
-* [dbader](https://github.com/dbader/)
-* [zenorocha](https://github.com/zenorocha/)
-* [fvcproductions](https://github.com/fvcproductions/)
