@@ -60,6 +60,7 @@ per the pipelines.py file
 sqlite3 mtnspider_json.db
 ```
 **The database contains three main tables, area_data, route_data, and stat_data**
+----------------------------------------------------------------
 **area_data** contains information about various areas, with each record including details such as:
 
 - `elevation_ft`: Elevation of the area in feet.
