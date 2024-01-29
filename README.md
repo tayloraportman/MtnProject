@@ -31,16 +31,26 @@ cd MtnProject
 git pull origin main
 ```
 ### Executing program
-* To execute the spider run the following command:
-```
-scrapy crawl mtnspider 
-
-```
-* If you would like to test the spider before running it in full, run the parser with a limited pagecount. This will allow you to see if the parser logic is working without scraping from the entire website. 
+* To test the spider before running it in full, run the parser with a limited pagecount. This will allow you to see if the parser logic is working without scraping from the entire website. 
 To execute the spider with limited pagecount, use the following command:
 ```
 scrapy crawl mtnspider -s CLOSESPIDER_PAGECOUNT=20
 
+```
+* To execute the spider in a tmux session, use the following commands:
+```
+tmux new -s mtnspider_session
+```
+```
+scrapy crawl mtnspider 
+```
+
+* If you would rather run the spier in a docker container run the following commands:
+```
+docker build -t mtnspider_image .
+```
+```
+docker run mtnspider_image
 ```
 **All scraped data will be cleaned and stored in the SQL database associated with the spider** 
 per the pipelines.py file
@@ -95,7 +105,6 @@ You can now exit the SQLite interface:
 ```
 .quit
 ```
-
 
 ## Authors
 
