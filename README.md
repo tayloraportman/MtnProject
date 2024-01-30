@@ -86,7 +86,7 @@ sqlite3 mtnspider_json.db
 - `avg_stars`: The average star rating given to the route.
 - `num_votes`: The number of votes or ratings the route has received.
 
-* To create a csv of selected data from the SQL database, you can use the following tutorial:
+To create a csv of selected data from the SQL database, you can use the following tutorial:
 
 Set the output to csv and specify the output file. 
 You can change the selected_data.csv to your preferred file name
