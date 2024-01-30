@@ -6,7 +6,6 @@
 
 # useful for handling different item types with a single interface
 import sqlite3
-from scrapy.exceptions import DropItem
 import json
 from MtnSpider.items import AreaData, RouteData, StatData
 
