@@ -34,7 +34,7 @@ git pull origin main
 * To test the spider before running it in full, run the parser with a limited pagecount. This will allow you to see if the parser logic is working without scraping from the entire website. 
 To execute the spider with limited pagecount, use the following command:
 ```
-scrapy crawl mtnspider -s CLOSESPIDER_PAGECOUNT=20
+scrapy crawl mtnspider -s CLOSESPIDER_PAGECOUNT=10
 
 ```
 * To execute the spider in a tmux session, use the following commands:
