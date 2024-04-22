@@ -79,30 +79,6 @@ sqlite3 mtnspider_database.db
 - `avg_stars`: The average star rating given to the route.
 - `num_votes`: The number of votes or ratings the route has received.
 
-```
-sqlite3 -header -csv Spider/MtnSpider/mtnspider_database.db "SELECT
-    a.area_id,
-    a.state_name,
-    a.area_name,
-    a.elevation_ft,
-    a.GPS,
-    r.route_id,
-    r.route_name,
-    r.climb_type,
-    r.climb_height_ft,
-    r.climb_height_m,
-    r.first_ascent,
-    r.page_views_total,
-    r.page_views_per_month,
-    r.gradeYDS,
-    r.gradeFont,
-    s.avg_stars,
-    s.num_votes
-FROM
-    area_data a
-JOIN route_data r ON a.area_id = r.area_id
-JOIN stat_data s ON r.route_id = s.route_id;" > all_mtnspider_dat.csv
-```
 
 
 To create a csv of selected data from the SQL database, you can use the following tutorial:
@@ -133,7 +109,7 @@ Taylor A Portman
 ## Version
 
     ## Version 1.0 - Jan 26, 2024
-    ## Version 2.0 - April, 22, 2024
+    ## Version 2.0 - April 22, 2024
     
 
 
