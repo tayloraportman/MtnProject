@@ -20,6 +20,7 @@ class RouteDataItems(Item):
     climb_type = Field()            # Type of the climb (e.g., Boulder)
     climb_height_ft = Field()       # Height of the climb in feet
     climb_height_m = Field()        # Height of the climb in meters
+    num_pitches = Field()           # Number of pitches
     first_ascent = Field()          # Name of the person who first ascended the route
     page_views_total = Field()      # Total page views for the route
     page_views_per_month = Field()  # Monthly page views for the route

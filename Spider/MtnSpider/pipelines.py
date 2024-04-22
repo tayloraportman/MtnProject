@@ -28,30 +28,42 @@ class MtnspiderPipeline:
 
     def process_item(self, item, spider):
         model = None
-        session = self.Session()  # Create a new session for each item
+        session = self.Session()
+        unique_key = None
 
+        # Determine the model and construct unique_filter with string keys
         if isinstance(item, AreaDataItems):
             model = AreaData
-            unique_filter = {AreaData.area_id: item['area_id']}
+            unique_key = 'area_id'
         elif isinstance(item, RouteDataItems):
             model = RouteData
-            unique_filter = {RouteData.route_id: item['route_id']}
+            unique_key = 'route_id'
         elif isinstance(item, StatDataItems):
             model = StatData
-            unique_filter = {StatData.route_id: item['route_id']}  # Assuming 'route_id' is a unique identifier for StatData
+            unique_key = 'route_id'
 
-        if model:
+        # Ensure unique_key exists in the item
+        if model and unique_key and unique_key in item:
+            unique_filter = {unique_key: item[unique_key]}
             existing_record = session.query(model).filter_by(**unique_filter).first()
+
             if existing_record:
-                # Update existing record with new information from item
-                for key, value in item.items():
-                    setattr(existing_record, key, value)
+                # Update existing record with item fields that match the model's columns
+                for key in model.__table__.columns.keys():
+                    if key in item:
+                        setattr(existing_record, key, item[key])
                 spider.logger.info(f"Updated existing {model.__name__} record with ID: {unique_filter}")
             else:
-                # Create a new instance of the model and add it to the session
-                new_record = model(**item)
+                # Filter item fields to match model's columns and create a new record
+                item_fields = {k: item[k] for k in item if k in model.__table__.columns.keys()}
+                new_record = model(**item_fields)
                 session.add(new_record)
                 spider.logger.info(f"Added new {model.__name__} record with ID: {unique_filter}")
+        else:
+            if unique_key is None:
+                spider.logger.warning("Received an item that doesn't match expected models.")
+            else:
+                spider.logger.warning(f"Item does not contain expected key '{unique_key}'.")
 
         try:
             session.commit()
@@ -62,6 +74,8 @@ class MtnspiderPipeline:
             session.close()
 
         return item
+
+
 
 
     def close_spider(self, spider):

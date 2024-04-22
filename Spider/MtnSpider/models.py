@@ -2,13 +2,14 @@ from sqlalchemy import create_engine, Column, Integer, String, Float, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
+
 # Define the base class for declarative models
 Base = declarative_base()
 
 # Define the AreaData model
 class AreaData(Base):
     __tablename__ = 'area_data'
-    area_id = Column(Integer, primary_key=True)
+    area_id = Column(String, primary_key=True)
     elevation_ft = Column(String)
     GPS = Column(String)
     area_name = Column(String)
@@ -17,10 +18,11 @@ class AreaData(Base):
 # Define the RouteData model
 class RouteData(Base):
     __tablename__ = 'route_data'
-    route_id = Column(Integer, primary_key=True)
+    route_id = Column(String, primary_key=True)
     climb_type = Column(String)
     climb_height_ft = Column(Float)
     climb_height_m = Column(Float)
+    num_pitches = Column(Integer)
     first_ascent = Column(String)
     page_views_total = Column(Integer)
     page_views_per_month = Column(Float)
@@ -33,8 +35,7 @@ class RouteData(Base):
 # Define the StatData model
 class StatData(Base):
     __tablename__ = 'stat_data'
-    id = Column(Integer, primary_key=True)
-    route_id = Column(Integer, ForeignKey('route_data.route_id'))
+    route_id = Column(String, ForeignKey('route_data.route_id'), primary_key=True)
     avg_stars = Column(Float)
     num_votes = Column(Integer)
     route = relationship("RouteData")

@@ -45,19 +45,12 @@ tmux new -s mtnspider_session
 scrapy crawl mtnspider 
 ```
 
-* If you would rather run the spier in a docker container run the following commands:
-```
-docker build -t mtnspider_image .
-```
-```
-docker run mtnspider_image
-```
 **All scraped data will be cleaned and stored in the SQL database associated with the spider** 
 per the pipelines.py file
 
-* To open the associated database, run the following command:
+* To open the associated database navigate to 'MtnSpider/' [cd Spider/MtnSpider/], and run the following command:
 ```
-sqlite3 mtnspider_json.db
+sqlite3 mtnspider_database.db
 ```
 **The database contains three main tables, area_data, route_data, and stat_data**
 ----------------------------------------------------------------
@@ -85,6 +78,32 @@ sqlite3 mtnspider_json.db
 - `route_id`: A unique identifier for the climbing route.
 - `avg_stars`: The average star rating given to the route.
 - `num_votes`: The number of votes or ratings the route has received.
+
+```
+sqlite3 -header -csv Spider/MtnSpider/mtnspider_database.db "SELECT
+    a.area_id,
+    a.state_name,
+    a.area_name,
+    a.elevation_ft,
+    a.GPS,
+    r.route_id,
+    r.route_name,
+    r.climb_type,
+    r.climb_height_ft,
+    r.climb_height_m,
+    r.first_ascent,
+    r.page_views_total,
+    r.page_views_per_month,
+    r.gradeYDS,
+    r.gradeFont,
+    s.avg_stars,
+    s.num_votes
+FROM
+    area_data a
+JOIN route_data r ON a.area_id = r.area_id
+JOIN stat_data s ON r.route_id = s.route_id;" > all_mtnspider_dat.csv
+```
+
 
 To create a csv of selected data from the SQL database, you can use the following tutorial:
 

@@ -94,26 +94,21 @@ class MtnSpider(scrapy.Spider):
                 match_route = re.search(r'route/(\d+)/([^/]+)', route_url)  # Modified regex to capture route name
                 if match_route:
                     route_id = match_route.group(1)
+                    self.logger.debug(f"Extracted route_id: {route_id}, type: {type(route_id)}")
                     route_name_raw = match_route.group(2)  # Raw route name from URL
                     route_name = route_name_raw.replace('-', ' ').title()  # Replace hyphens with spaces and title case
 
-                    yield {
-                        'route_id': route_id,
-                        'route_name': route_name  # Include route name in the yielded item
-                    }
                 else:
                     self.logger.warning("match_route pattern not found")
-                
-                
 
-            for url, name in zip(route_urls, route_name):
                 yield scrapy.Request(
-                    url=url,
+                    url=route_url,
                     callback=self.parse_routes,
                     meta={'state_name': state_name, 'area_name': area_name, 'route_name': route_name, 'area_id': area_id, 'route_id': route_id}
                 )
         else:
-            self.logger.warning("Title element not found")
+            self.logger.warning("Route URL pattern not found: " + route_url)
+
 
     ########################################################################
         ### Extract data from area page ##
@@ -140,6 +135,8 @@ class MtnSpider(scrapy.Spider):
             area_item['area_id'] = area_id
 
         yield area_item
+
+        
     ################################
     #Parser 3: Collect route data 
     ################################
@@ -158,75 +155,76 @@ class MtnSpider(scrapy.Spider):
         cleaned_text = ' '.join(map(str.strip, page_info_raw))
 
         # Define regular expressions and corresponding field names
+        # Define enhanced patterns with a new entry for number of pitches
         patterns = [
-            (r'Type:\s*([A-Za-z]+)', 'climb_type'),                   # Match and extract climb type
-            (r'(\d+)\s*ft', 'climb_height_ft'),                       # Match and extract climb height in feet
-            (r'\((\d+)\s*m\)', 'climb_height_m'),                     # Match and extract climb height in meters
-            (r'FA:\s*([^:]+)(?= Page Views:|$)', 'first_ascent'),     # Match and extract First Ascent information
-            (r'Page Views:\s*([\d,]+)', 'page_views_total'),           # Match and extract total page views
-            (r'(\d+)/month', 'page_views_per_month')                  # Match and extract page views per month
+            (r'Type:\s*([A-Za-z, ]+)', 'climb_type'),
+            (r'(\d+)\s*ft', 'climb_height_ft'),
+            (r'\((\d+)\s*m\)', 'climb_height_m'),
+            (r'FA:\s*([^:]+)(?= Page Views:|$)', 'first_ascent'),
+            (r'Page Views:\s*([\d,]+)', 'page_views_total'),
+            (r'(\d+)/month', 'page_views_per_month'),
+            (r'(\d+)\s*pitches?', 'num_pitches')  # New pattern for number of pitches
         ]
 
-        route_data = {}
-
+        # Process patterns with enhanced error handling
         for pattern, field in patterns:
             match = re.search(pattern, cleaned_text)
             if match:
-                route_data[field] = match.group(1).strip()
+                route_item[field] = match.group(1).strip()
             else:
-                    self.logger.warning("route_data pattern not found")
+                self.logger.warning(f"Pattern for {field} not found. Page may require manual review.")
+
+
         # Assign YDS and Font grades
         route_item['gradeYDS'] = gradeYDS
         route_item['gradeFont'] = gradeFont
 
         # Add additional meta data fields
+      
         route_item['state_name'] = response.meta['state_name']
         route_item['area_id'] = response.meta['area_id']
         route_item['area_name'] = response.meta['area_name']
         route_item['route_id'] = response.meta['route_id']
         route_item['route_name'] = response.meta['route_name']
 
+
         yield route_item
+
+        route_stats = self.extract_route_stats(response)
+        yield route_stats
         ################################
         # Parse route stats ###
         ################################
-        stat_info = StatDataItems()
-        #### Route stats parsing from route page:
-        route_id = response.meta.get('route_id')
-        stat_data = {'route_id': route_id, 'avg_stars': None, 'num_votes': None}  # Initialize with default values
-        # Extract stars and num votes from route stats info
-        avg_stars_votes = response.xpath('//*[starts-with(@id, "starsWithAvgText-")]/text()').extract()
-        for element in avg_stars_votes:
-            # Extracting and cleaning the text from each matched element
-            cleaned_text = ' '.join(avg_stars_votes).strip()
-
-            # Define a regular expression pattern to match "Avg: X.X from Y votes" format
-            pattern = r'Avg:\s*([\d.]+)\s*from\s*(\d+)\s*votes'
-
-            # Use re.search to find the pattern in the text
-            match = re.search(pattern, cleaned_text)
-
-            # Check if a match was found
-            if match:
-                # Extract avg_stars (the first group) and convert it to a float
-                avg_stars = float(match.group(1))
-
-                # Extract num_votes (the second group) and convert it to an integer
-                num_votes = int(match.group(2))
-
-                stat_info['route_id']= route_id,
-                stat_info['avg_stars']= avg_stars,
-                stat_info['num_votes']= num_votes
-                
-            else:
-                    self.logger.warning("avg_stars, num_votes pattern not found")
-            yield stat_info
-
-
-    def closed(self, reason):
         
-# %%
-        from scrapy.crawler import CrawlerProcess
-        process = CrawlerProcess()
-        process.crawl(MtnSpider)
-        process.start()
+    def extract_route_stats(self, response):
+        stat_info = StatDataItems()
+        stat_info['route_id'] = response.meta.get('route_id', None)
+        avg_stars_votes = response.xpath('//*[starts-with(@id, "starsWithAvgText-")]/text()').extract()
+        cleaned_text = ' '.join(avg_stars_votes).strip()
+        pattern = r'Avg:\s*([\d.]+)\s*from\s*([\d,]+)\s*votes'
+        match = re.search(pattern, cleaned_text)
+
+        if match:
+            try:
+                avg_stars = float(match.group(1))
+                num_votes = int(match.group(2).replace(',', ''))  # Remove commas before conversion
+                stat_info['avg_stars'] = avg_stars
+                stat_info['num_votes'] = num_votes
+            except ValueError as e:
+                self.logger.warning(f"Error converting avg_stars or num_votes for route_id {stat_info['route_id']}: {e}")
+        else:
+            self.logger.warning(f"Pattern did not match for route_id {stat_info['route_id']}.")
+
+        return stat_info
+
+
+# Note: This function assumes that `response`, `logger`, and other required contexts are properly defined.
+# Actual implementation might require adjustments based on the full context of your scraping project.
+
+
+
+ #   def closed(self, reason):
+ #       from scrapy.crawler import CrawlerProcess
+ #       process = CrawlerProcess()
+  #      process.crawl(MtnSpider)
+  #      process.start()
