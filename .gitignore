@@ -1,4 +1,8 @@
-*/.DS_Store
-.DS_Store 
+# Ignore MacOS system files
+.DS_Store
 
+# Ignore Python compiled files
 __pycache__/
+
+# Ignore Dockerfile (if you want to ignore all Dockerfiles)
+Dockerfile
